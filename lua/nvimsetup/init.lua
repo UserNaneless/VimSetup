@@ -1,0 +1,5 @@
+require("nvimsetup.remap")
+require("nvimsetup.packer")
+require("nvimsetup.set")
+require("autoclose").setup()
+require("staline").setup()
