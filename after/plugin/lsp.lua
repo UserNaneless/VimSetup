@@ -33,7 +33,14 @@ require("lspconfig").astro.setup({
     init_options = {
         typescript = {
             tsdk = 'node_modules/typescript/lib'
-        }
+        },
+    }
+})
+
+require('lspconfig').clangd.setup({
+    cmd = {
+        'clangd',
+        -- "--fallback-style={IndentWidth: 4\\ AccessModifierOffset: 4\\ IndentAccessModifiers: true}",
     }
 })
 

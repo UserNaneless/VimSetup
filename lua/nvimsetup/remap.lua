@@ -23,6 +23,8 @@ vim.keymap.set("n", "<leader>b", function()
         print(vim.fn.expand("%"));
     elseif type == "zig" then
         vim.cmd("!zig build")
+    elseif type == "cpp" then
+        vim.cmd("!make")
     end
 
 end)
