@@ -19,7 +19,7 @@ end)
 
 require('mason').setup({})
 require('mason-lspconfig').setup({
-    ensure_installed = { 'tsserver', 'eslint', 'lua_ls', 'rust_analyzer', 'zls', "stylelint_lsp" },
+    ensure_installed = { 'eslint', 'lua_ls', 'rust_analyzer', 'zls', "stylelint_lsp" },
     handlers = {
         lsp_zero.default_setup,
         lua_ls = function()
@@ -34,6 +34,9 @@ require("lspconfig").astro.setup({
         typescript = {
             tsdk = 'node_modules/typescript/lib'
         },
+    },
+    filetypes = {
+        "astro"
     }
 })
 
