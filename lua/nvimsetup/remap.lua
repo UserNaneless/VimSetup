@@ -24,7 +24,7 @@ vim.keymap.set("n", "<leader>b", function()
     elseif type == "zig" then
         vim.cmd("!zig build")
     elseif type == "cpp" then
-        vim.cmd("!make")
+        vim.cmd("!cmake && make")
     end
 
 end)
