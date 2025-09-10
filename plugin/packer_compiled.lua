@@ -75,7 +75,7 @@ time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
   ["Comment.nvim"] = {
-    config = { "\27LJ\2\nw\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ftoggler\1\0\1\ftoggler\0\1\0\2\nblock\14<leader>C\tline\14<leader>c\nsetup\fComment\frequire\0" },
+    config = { "\27LJ\2\nw\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ftoggler\1\0\1\ftoggler\0\1\0\2\tline\14<leader>c\nblock\14<leader>C\nsetup\fComment\frequire\0" },
     loaded = true,
     path = "/home/naneless/.local/share/nvim/site/pack/packer/start/Comment.nvim",
     url = "https://github.com/numToStr/Comment.nvim"
@@ -102,7 +102,7 @@ _G.packer_plugins = {
     url = "https://github.com/Exafunction/codeium.vim"
   },
   ["conform.nvim"] = {
-    config = { "\27LJ\2\nJ\0\0\3\1\2\0\5-\0\0\0009\0\0\0005\2\1\0B\0\2\1K\0\1\0\0À\1\0\3\17lsp_fallback\2\15timeout_ms\3ô\3\nasync\1\vformat¡\5\1\0\6\0$\0)6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\b\0005\4\4\0005\5\3\0=\5\5\0045\5\6\0=\5\a\4=\4\t\0035\4\v\0005\5\n\0=\5\f\0045\5\r\0=\5\14\0045\5\15\0=\5\16\0045\5\17\0=\5\18\0045\5\19\0=\5\20\0045\5\21\0=\5\22\0045\5\23\0=\5\24\0045\5\25\0=\5\26\0045\5\27\0=\5\28\4=\4\29\3B\1\2\0016\1\30\0009\1\31\0019\1 \0015\3!\0'\4\"\0003\5#\0B\1\4\0012\0\0€K\0\1\0\0\14<leader>f\1\3\0\0\6n\6v\bset\vkeymap\bvim\21formatters_by_ft\bzig\1\2\0\0\bzls\nastro\1\2\0\0\14prettierd\thtml\1\2\0\0\14prettierd\bcss\1\2\0\0\14prettierd\tscss\1\2\0\0\14prettierd\20typescriptreact\1\2\0\0\14prettierd\20javascriptreact\1\2\0\0\14prettierd\15typescript\1\2\0\0\14prettierd\15javascript\1\0\t\bzig\0\nastro\0\thtml\0\bcss\0\tscss\0\20typescriptreact\0\20javascriptreact\0\15typescript\0\15javascript\0\1\2\0\0\14prettierd\15formatters\1\0\2\21formatters_by_ft\0\15formatters\0\rprettier\1\0\2\16singleQuote\1\rtabWidth\3\4\14prettierd\1\0\2\14prettierd\0\rprettier\0\1\0\2\16singleQuote\1\rtabWidth\3\4\nsetup\fconform\frequire\0" },
+    config = { "\27LJ\2\nJ\0\0\3\1\2\0\5-\0\0\0009\0\0\0005\2\1\0B\0\2\1K\0\1\0\0À\1\0\3\17lsp_fallback\2\15timeout_ms\3ô\3\nasync\1\vformat¡\5\1\0\6\0$\0)6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\b\0005\4\4\0005\5\3\0=\5\5\0045\5\6\0=\5\a\4=\4\t\0035\4\v\0005\5\n\0=\5\f\0045\5\r\0=\5\14\0045\5\15\0=\5\16\0045\5\17\0=\5\18\0045\5\19\0=\5\20\0045\5\21\0=\5\22\0045\5\23\0=\5\24\0045\5\25\0=\5\26\0045\5\27\0=\5\28\4=\4\29\3B\1\2\0016\1\30\0009\1\31\0019\1 \0015\3!\0'\4\"\0003\5#\0B\1\4\0012\0\0€K\0\1\0\0\14<leader>f\1\3\0\0\6n\6v\bset\vkeymap\bvim\21formatters_by_ft\bzig\1\2\0\0\bzls\nastro\1\2\0\0\14prettierd\thtml\1\2\0\0\14prettierd\bcss\1\2\0\0\14prettierd\tscss\1\2\0\0\14prettierd\20typescriptreact\1\2\0\0\14prettierd\20javascriptreact\1\2\0\0\14prettierd\15typescript\1\2\0\0\14prettierd\15javascript\1\0\t\nastro\0\thtml\0\bcss\0\tscss\0\20typescriptreact\0\20javascriptreact\0\15typescript\0\15javascript\0\bzig\0\1\2\0\0\14prettierd\15formatters\1\0\2\21formatters_by_ft\0\15formatters\0\rprettier\1\0\2\16singleQuote\1\rtabWidth\3\4\14prettierd\1\0\2\14prettierd\0\rprettier\0\1\0\2\16singleQuote\1\rtabWidth\3\4\nsetup\fconform\frequire\0" },
     loaded = true,
     path = "/home/naneless/.local/share/nvim/site/pack/packer/start/conform.nvim",
     url = "https://github.com/stevearc/conform.nvim"
@@ -141,6 +141,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/naneless/.local/share/nvim/site/pack/packer/start/nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-gdb"] = {
+    loaded = true,
+    path = "/home/naneless/.local/share/nvim/site/pack/packer/start/nvim-gdb",
+    url = "https://github.com/sakhnik/nvim-gdb"
   },
   ["nvim-lspconfig"] = {
     loaded = true,
@@ -224,17 +229,17 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: conform.nvim
+time([[Config for conform.nvim]], true)
+try_loadstring("\27LJ\2\nJ\0\0\3\1\2\0\5-\0\0\0009\0\0\0005\2\1\0B\0\2\1K\0\1\0\0À\1\0\3\17lsp_fallback\2\15timeout_ms\3ô\3\nasync\1\vformat¡\5\1\0\6\0$\0)6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\b\0005\4\4\0005\5\3\0=\5\5\0045\5\6\0=\5\a\4=\4\t\0035\4\v\0005\5\n\0=\5\f\0045\5\r\0=\5\14\0045\5\15\0=\5\16\0045\5\17\0=\5\18\0045\5\19\0=\5\20\0045\5\21\0=\5\22\0045\5\23\0=\5\24\0045\5\25\0=\5\26\0045\5\27\0=\5\28\4=\4\29\3B\1\2\0016\1\30\0009\1\31\0019\1 \0015\3!\0'\4\"\0003\5#\0B\1\4\0012\0\0€K\0\1\0\0\14<leader>f\1\3\0\0\6n\6v\bset\vkeymap\bvim\21formatters_by_ft\bzig\1\2\0\0\bzls\nastro\1\2\0\0\14prettierd\thtml\1\2\0\0\14prettierd\bcss\1\2\0\0\14prettierd\tscss\1\2\0\0\14prettierd\20typescriptreact\1\2\0\0\14prettierd\20javascriptreact\1\2\0\0\14prettierd\15typescript\1\2\0\0\14prettierd\15javascript\1\0\t\nastro\0\thtml\0\bcss\0\tscss\0\20typescriptreact\0\20javascriptreact\0\15typescript\0\15javascript\0\bzig\0\1\2\0\0\14prettierd\15formatters\1\0\2\21formatters_by_ft\0\15formatters\0\rprettier\1\0\2\16singleQuote\1\rtabWidth\3\4\14prettierd\1\0\2\14prettierd\0\rprettier\0\1\0\2\16singleQuote\1\rtabWidth\3\4\nsetup\fconform\frequire\0", "config", "conform.nvim")
+time([[Config for conform.nvim]], false)
 -- Config for: codeium.vim
 time([[Config for codeium.vim]], true)
 try_loadstring("\27LJ\2\n-\0\0\2\0\3\0\0046\0\0\0009\0\1\0009\0\2\0D\0\1\0\19codeium#Accept\afn\bvim;\0\0\3\0\3\0\0056\0\0\0009\0\1\0009\0\2\0)\2\1\0D\0\2\0\29codeium#CycleCompletions\afn\bvim;\0\0\3\0\3\0\0056\0\0\0009\0\1\0009\0\2\0)\2ÿÿD\0\2\0\29codeium#CycleCompletions\afn\bvim,\0\0\2\0\3\0\0046\0\0\0009\0\1\0009\0\2\0D\0\1\0\18codeium#Clear\afn\bvimƒ\2\1\0\6\0\16\0!6\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\4\0003\4\5\0005\5\6\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\a\0003\4\b\0005\5\t\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\n\0003\4\v\0005\5\f\0B\0\5\0016\0\0\0009\0\1\0009\0\2\0'\2\3\0'\3\r\0003\4\14\0005\5\15\0B\0\5\1K\0\1\0\1\0\2\vsilent\2\texpr\2\0\v<C-M-c\1\0\2\vsilent\2\texpr\2\0\f<C-M-q>\1\0\2\vsilent\2\texpr\2\0\f<C-M-e>\1\0\2\vsilent\2\texpr\2\0\f<C-M-y>\6i\bset\vkeymap\bvim\0", "config", "codeium.vim")
 time([[Config for codeium.vim]], false)
--- Config for: conform.nvim
-time([[Config for conform.nvim]], true)
-try_loadstring("\27LJ\2\nJ\0\0\3\1\2\0\5-\0\0\0009\0\0\0005\2\1\0B\0\2\1K\0\1\0\0À\1\0\3\17lsp_fallback\2\15timeout_ms\3ô\3\nasync\1\vformat¡\5\1\0\6\0$\0)6\0\0\0'\2\1\0B\0\2\0029\1\2\0005\3\b\0005\4\4\0005\5\3\0=\5\5\0045\5\6\0=\5\a\4=\4\t\0035\4\v\0005\5\n\0=\5\f\0045\5\r\0=\5\14\0045\5\15\0=\5\16\0045\5\17\0=\5\18\0045\5\19\0=\5\20\0045\5\21\0=\5\22\0045\5\23\0=\5\24\0045\5\25\0=\5\26\0045\5\27\0=\5\28\4=\4\29\3B\1\2\0016\1\30\0009\1\31\0019\1 \0015\3!\0'\4\"\0003\5#\0B\1\4\0012\0\0€K\0\1\0\0\14<leader>f\1\3\0\0\6n\6v\bset\vkeymap\bvim\21formatters_by_ft\bzig\1\2\0\0\bzls\nastro\1\2\0\0\14prettierd\thtml\1\2\0\0\14prettierd\bcss\1\2\0\0\14prettierd\tscss\1\2\0\0\14prettierd\20typescriptreact\1\2\0\0\14prettierd\20javascriptreact\1\2\0\0\14prettierd\15typescript\1\2\0\0\14prettierd\15javascript\1\0\t\bzig\0\nastro\0\thtml\0\bcss\0\tscss\0\20typescriptreact\0\20javascriptreact\0\15typescript\0\15javascript\0\1\2\0\0\14prettierd\15formatters\1\0\2\21formatters_by_ft\0\15formatters\0\rprettier\1\0\2\16singleQuote\1\rtabWidth\3\4\14prettierd\1\0\2\14prettierd\0\rprettier\0\1\0\2\16singleQuote\1\rtabWidth\3\4\nsetup\fconform\frequire\0", "config", "conform.nvim")
-time([[Config for conform.nvim]], false)
 -- Config for: Comment.nvim
 time([[Config for Comment.nvim]], true)
-try_loadstring("\27LJ\2\nw\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ftoggler\1\0\1\ftoggler\0\1\0\2\nblock\14<leader>C\tline\14<leader>c\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+try_loadstring("\27LJ\2\nw\0\0\4\0\6\0\t6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\2B\0\2\1K\0\1\0\ftoggler\1\0\1\ftoggler\0\1\0\2\tline\14<leader>c\nblock\14<leader>C\nsetup\fComment\frequire\0", "config", "Comment.nvim")
 time([[Config for Comment.nvim]], false)
 vim.cmd [[augroup packer_load_aucmds]]
 vim.cmd [[au!]]
