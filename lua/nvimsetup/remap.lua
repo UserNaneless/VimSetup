@@ -23,10 +23,21 @@ vim.keymap.set("n", "<leader>b", function()
         print(vim.fn.expand("%"));
     elseif type == "zig" then
         vim.cmd("!zig build")
-    elseif type == "cpp" then
-        vim.cmd("!cmake && make")
+    elseif type == "cpp" or type == "c" then
+        if(vim.fn.filereadable("build.sh")) then
+            vim.cmd("!./build.sh --rebuild")
+        end
     end
+end)
 
+vim.keymap.set("n", "<leader>B", function()
+    vim.cmd("w")
+    local type = vim.bo.filetype;
+    if type == "cpp" then
+        if(vim.fn.filereadable("build.sh")) then
+            vim.cmd("!./build.sh")
+        end
+    end
 end)
 
 vim.keymap.set("n", "<leader>[", function()
