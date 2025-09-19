@@ -47,6 +47,10 @@ require('lspconfig').clangd.setup({
     }
 })
 
+vim.diagnostic.config({
+    signs = false
+})
+
 local cmp = require('cmp')
 local cmp_select = { behavior = cmp.SelectBehavior.Select }
 
