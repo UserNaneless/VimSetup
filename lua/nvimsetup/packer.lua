@@ -33,8 +33,8 @@ return require('packer').startup(function(use)
         branch = 'v3.x',
         requires = {
             --- Uncomment these if you want to manage LSP servers from neovim
-            { 'williamboman/mason.nvim' },
-            { 'williamboman/mason-lspconfig.nvim' },
+            { 'mason-org/mason.nvim' },
+            { 'mason-org/mason-lspconfig.nvim' },
 
             -- LSP Support
             { 'neovim/nvim-lspconfig' },
@@ -104,8 +104,6 @@ return require('packer').startup(function(use)
     use({ "tamton-aquib/staline.nvim" })
 
     use({ "AlexvZyl/nordic.nvim" })
-
-    use({ "wuelnerdotexe/vim-astro", ft = "astro" })
 
     use({ "lervag/vimtex" })
 

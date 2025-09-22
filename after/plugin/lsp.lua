@@ -24,12 +24,12 @@ require('mason-lspconfig').setup({
         lsp_zero.default_setup,
         lua_ls = function()
             local lua_opts = lsp_zero.nvim_lua_ls()
-            require('lspconfig').lua_ls.setup(lua_opts)
+            vim.lsp.config("lua_ls", lua_opts)
         end,
     }
 })
 
-require("lspconfig").astro.setup({
+vim.lsp.config("astro", {
     init_options = {
         typescript = {
             tsdk = 'node_modules/typescript/lib'
@@ -40,12 +40,13 @@ require("lspconfig").astro.setup({
     }
 })
 
-require('lspconfig').clangd.setup({
+vim.lsp.config("clangd", {
     cmd = {
         'clangd',
         -- "--fallback-style={IndentWidth: 4\\ AccessModifierOffset: 4\\ IndentAccessModifiers: true}",
     }
 })
+vim.lsp.enable({"clangd", "astro", "lua_ls"})
 
 vim.diagnostic.config({
     signs = false
