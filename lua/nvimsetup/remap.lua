@@ -16,7 +16,7 @@ vim.keymap.set("v", "<leader>Y", "\"+y")
 vim.keymap.set("n", "<leader>q", function()
     vim.cmd("G commit -a")
 end)
-vim.keymap.set("n", "<leader>b", function()
+vim.keymap.set("n", "<leader>B", function()
     vim.cmd("w")
     local type = vim.bo.filetype;
     if type == "lua" then
@@ -30,14 +30,8 @@ vim.keymap.set("n", "<leader>b", function()
     end
 end)
 
-vim.keymap.set("n", "<leader>B", function()
+vim.keymap.set("n", "<leader>b", function()
     vim.cmd("w")
-    local type = vim.bo.filetype;
-    if type == "cpp" then
-        if(vim.fn.filereadable("build.sh")) then
-            vim.cmd("!./build.sh")
-        end
-    end
 end)
 
 vim.keymap.set("n", "<leader>[", function()

@@ -45,12 +45,23 @@ vim.lsp.config("astro", {
     }
 })
 
+
 vim.lsp.config("clangd", {
     cmd = {
         'clangd',
         -- "--fallback-style={IndentWidth: 4\\ AccessModifierOffset: 4\\ IndentAccessModifiers: true}",
     }
 })
+
+vim.lsp.config("omnisharp", {
+    cmd = { "dotnet", vim.fn.stdpath("data") .. "/mason/packages/omnisharp/libexec/OmniSharp.dll" },
+})
+
+vim.lsp.config("gdscript", {
+    name = "godot",
+    cmd = vim.lsp.rpc.connect("127.0.0.1", 6005)
+})
+
 vim.lsp.enable({ "clangd", "astro", "lua_ls" })
 
 vim.diagnostic.config({

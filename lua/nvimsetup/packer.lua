@@ -16,9 +16,16 @@ return require('packer').startup(function(use)
         as = 'rose-pine',
     })
 
-    use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+    -- use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
 
-    use('nvim-treesitter/playground')
+    use({
+        "romus204/tree-sitter-manager.nvim",
+        config = function()
+            require("tree-sitter-manager").setup({})
+        end
+    })
+
+    -- use('nvim-treesitter/playground')
 
     use('bluz71/vim-moonfly-colors', { as = 'moonfly' })
 
@@ -67,7 +74,7 @@ return require('packer').startup(function(use)
                     typescript      = { "prettierd" },
                     javascriptreact = { "prettierd" },
                     typescriptreact = { "prettierd" },
-                    scss            = { "prettierd" },
+                    sass            = { "prettierd" },
                     css             = { "prettierd" },
                     html            = { "prettierd" },
                     astro           = { "prettierd" },

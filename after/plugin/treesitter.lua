@@ -1,4 +1,4 @@
-require 'nvim-treesitter.configs'.setup {
+require "tree-sitter-manager".setup {
     -- A list of parser names, or "all" (the five listed parsers should always be installed)
     ensure_installed = { "javascript", "typescript", "c", "lua", "vim", "vimdoc", "query", "css", "astro" },
 
@@ -9,9 +9,6 @@ require 'nvim-treesitter.configs'.setup {
     -- Recommendation: set to false if you don't have `tree-sitter` CLI installed locally
     auto_install = true,
 
-    highlight = {
-        enable = true,
-        -- disable = { "latex" },
-        -- additional_vim_regex_highlighting = false,
-    },
+    highlight = true
+
 }
